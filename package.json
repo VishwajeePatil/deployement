@@ -1,11 +1,13 @@
 {
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
   "name": "deployement",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/VishwajeePatil/deployement/issues"
   },
-  "homepage": "https://github.com/VishwajeePatil/deployement#readme"
+  "homepage": "https://github.com/VishwajeePatil/deployement#readme",
+  "dependencies":{
+    "json-server":"^0.17.3"
+  },
+  "description": ""
 }
